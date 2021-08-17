@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/strapi-courses",
+      "handler": "strapi-courses.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/strapi-courses/count",
+      "handler": "strapi-courses.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/strapi-courses/:id",
+      "handler": "strapi-courses.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/strapi-courses",
+      "handler": "strapi-courses.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/strapi-courses/:id",
+      "handler": "strapi-courses.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/strapi-courses/:id",
+      "handler": "strapi-courses.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
